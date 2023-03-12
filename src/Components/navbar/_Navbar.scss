@@ -1,0 +1,36 @@
+
+.nav{
+    position: fixed;
+    top: 0;
+    z-index: 500;
+    height: 80px;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    align-self: center;
+    opacity: 90%;
+    .logo-namePag{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-between;
+        .imgLogo{
+            width: 20vw;
+            height: auto;
+            text-decoration: none;
+        }
+        
+        .namPag{
+            color: black;
+            text-decoration: none;
+        }
+        
+    }
+    ul{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+}

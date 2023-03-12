@@ -10,11 +10,12 @@ function NavBar() {
         <nav className='nav'>
           <div className='logo-namePag'>
             <img alt='Logo' className='imgLogo' src={Logo}/>
-            <h1 className='namePag'>Lifesome Therapeutics</h1>
           </div>
           <ul>
-            
-          </ul>
+            <li>Home</li>
+            <li>Product</li>
+            <li>Information</li>
+          </ul>      
         </nav>
       </header>
     );

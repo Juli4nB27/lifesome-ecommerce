@@ -3,7 +3,8 @@ import './App.css';
 import Footer from './Components/footer/Footer';
 import Header from './Components/header/Header';
 import NavBar from './Components/navbar/NavBar';
-
+import Product from './Components/productView/ProductView';
+import Information from './Components/informationView/InformationView';
 
 
 
@@ -11,9 +12,13 @@ import NavBar from './Components/navbar/NavBar';
 function App() {
     return (
       <div className="App">
-        <Header />
-        <Footer />
         <NavBar />
+        <div className='main'>
+          <Header />
+          <Product/>
+          <Information/>
+        </div>
+        <Footer />
       </div>
     );
   }

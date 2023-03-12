@@ -1,0 +1,152 @@
+.contProductFondo {
+    
+    .imgFondo {
+        height: 50%;
+        width: 100%;
+        margin-top: 15rem;
+        opacity: .8;
+    }
+
+    h2 {
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        bottom: 13rem;
+        font-size: 25px;
+        line-height: 40px;
+        font-weight: normal;
+        margin-left: 13rem;
+        margin-right: 13rem;
+    }
+
+    .pProduct {
+        display: flex;
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+        position: relative;
+        bottom: 12rem;
+        font-size: 18px;
+        font-weight: lighter;
+        margin-left: 20rem;
+        margin-right: 20rem;
+    }
+
+    .contProd {
+        h3 {
+            display: flex;
+            text-align: center;
+            flex-direction: row;
+            justify-content: center;
+            font-size: 25px;
+            line-height: 40px;
+            font-weight: normal;
+            margin-left: 13rem;
+            margin-right: 13rem;
+            margin-bottom: 2rem;
+        }
+
+        .pProd2 {
+            display: flex;
+            text-align: center;
+            flex-direction: row;
+            justify-content: center;
+            font-size: 18px;
+            font-weight: lighter;
+            margin-left: 20rem;
+            margin-right: 20rem;
+            margin-bottom: 8rem;
+        }
+
+        .fondoLinear {
+            padding-bottom: 10rem;
+            background: linear-gradient(180deg, #5BA6AA 0.01%, rgba(153, 225, 209, 0.43) 100%);
+            .h3img {
+                display: flex;
+                text-align: center;
+                flex-direction: row;
+                justify-content: center;
+                font-size: 25px;
+                line-height: 40px;
+                font-weight: lighter;
+                padding-top: 4rem;
+                margin: 2rem 13rem 2rem 13rem;
+            }
+            .imagenes {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                gap: 4rem;
+                position: relative;
+                top: 5rem;
+                z-index: 499;
+                .imgFondo2 {
+                    height: 13rem;
+                    width: auto;
+                    border-radius: 100%;
+                    filter: drop-shadow(15px 0px 4px rgba(0, 0, 0, 0.25));
+                }
+
+                .imgFondo3 {
+                    height: 13rem;
+                    width: auto;
+                    border-radius: 100%;
+                    filter: drop-shadow(15px 0px 4px rgba(0, 0, 0, 0.25));
+                }
+
+            }
+        }
+        .NanoParts{
+            margin-left: 13rem;
+            margin-right: 13rem;
+            display: flex;
+            flex-direction: column;
+            padding-top: 4rem;
+            padding-bottom: 4rem;
+            .InVitro{
+                display: flex;
+                align-items: center;
+                .imgInVitro{
+                    height: 15rem;
+                    
+                }
+                .contInVitro{
+                    .h4InVitro{
+                        padding-left: 2rem;
+                        padding-bottom: 1rem;
+                    }
+                    p{
+                        font-size: 14px;
+                        font-weight: lighter;
+                        padding-bottom: 1rem;
+                        padding-left: 2rem;
+                    }
+                }
+            }
+            .InVivo{
+                display: flex;
+                align-items: center;
+                flex-direction: row-reverse;
+                padding-top: 4rem;
+                .imgInVivo{
+                    height: 15rem;
+                }
+                .ContInVivo{
+                    .h4InVivo{
+                        padding-right: 2rem;
+                        padding-bottom: 1rem; 
+                    }
+                    p{
+                        font-size: 14px;
+                        font-weight: lighter;
+                        padding-bottom: 1rem;
+                        padding-right: 2rem;
+                    }
+                }
+            }
+        }
+    }
+}
